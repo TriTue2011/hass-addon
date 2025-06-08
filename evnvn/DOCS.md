@@ -29,10 +29,12 @@ ngaydauky: "1"
 
 ```
 NPC và SPC Cần điền đúng key api gemini để bypass Capcha. Còn lại EVN khác thì điền bừa key api cũng được
-Cấu hình Port 1093 để có view đẹp
+
 
 
 > Bạn cần có tài khoản [Google Gemini](https://makersuite.google.com/app/apikey) để lấy `gemini_api_key`.
+
+---
 
 ### 2. Chạy Addon
 - Sau khi config xong thì chạy addon, sang tab logs xem có lỗi gì không, đợi cho chạy xong lần đầu rồi làm bước tiếp theo
@@ -40,6 +42,9 @@ Cấu hình Port 1093 để có view đẹp
 - Sau khi thêm thì tìm EVN VN
 - Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Tên Đăng Nhập EVN để thêm các Sensor(CPC Miền trung đăng nhập bằng sdt thì khúc này nhập mã khách hàng)
 - Hoặc tải thủ công custom_components/npc về rồi copy vào Home Assistant
+
+---
+
 ## 📡 Kết quả
 
 Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ liệu, các cảm biến sẽ xuất hiện trong Home Assistant nhờ MQTT Discovery:
@@ -50,10 +55,13 @@ Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ
 - Và nhiều cảm biến khác
 
 ---
+
 ## View Html
 
-- Tải file [index.html](https://github.com/smarthomeblack/hass-addon/blob/main/evnvn/index.html) cho vào thư mục config/evnvn của hass
-- vào Cài đặt -> bảng điều khiển -> thêm bảng điều khiển Trang Web, nhập http://ip hass:1093
+- Bật hiển thị thanh bên trên addon EVN VN
+
+---
+  
 ## Hiển Thị Cảm Biến Trên Home Assistant
 
 - Chi Tiết Tiêu Thụ Các Ngày Trong Tháng
