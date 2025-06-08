@@ -238,7 +238,12 @@
 
         async function loadAccounts() {
             try {
-                const response = await fetch('/options');
+                // Xác định base URL cho Ingress
+                const baseUrl = window.location.pathname.match(/\/api\/hassio_ingress\/[^\/]+/) 
+                    ? window.location.pathname.match(/\/api\/hassio_ingress\/[^\/]+/)[0] 
+                    : '';
+                
+                const response = await fetch(baseUrl + '/options');
                 if (!response.ok) throw new Error('Không thể tải file options.json');
                 const options = await response.json();
                 const accounts = JSON.parse(options.accounts_json);
@@ -257,29 +262,35 @@
                 alert('Không thể tải danh sách tài khoản từ options.json. Kiểm tra file và server.');
             }
         }
-
+        
         async function loadDataForAccount() {
             const account = document.getElementById('accountSelect').value;
             if (!account) {
                 clearData();
                 return;
             }
-
+        
             try {
-                const monthlyResponse = await fetch(`tien_dien_san_luong_${currentYear}_${account}.json`);
+                // Xác định base URL
+                const baseUrl = window.location.pathname.match(/\/api\/hassio_ingress\/[^\/]+/) 
+                    ? window.location.pathname.match(/\/api\/hassio_ingress\/[^\/]+/)[0] 
+                    : '';
+        
+                const monthlyResponse = await fetch(`${baseUrl}/tien_dien_san_luong_${currentYear}_${account}.json`);
                 if (!monthlyResponse.ok) throw new Error(`Không thể tải file tien_dien_san_luong_${currentYear}_${account}.json`);
                 const monthlyData = await monthlyResponse.json();
-
-                const dailyResponse = await fetch(`dien_tieu_thu_${account}.json`);
+        
+                const dailyResponse = await fetch(`${baseUrl}/dien_tieu_thu_${account}.json`);
                 if (!dailyResponse.ok) throw new Error(`Không thể tải file dien_tieu_thu_${account}.json`);
                 const dailyData = await dailyResponse.json();
-
+        
                 processData(monthlyData, dailyData);
             } catch (error) {
                 console.error('Lỗi tải dữ liệu:', error);
                 alert(`Lỗi: ${error.message}. Chạy qua server (Live Server) và kiểm tra file JSON.`);
             }
         }
+        
 
         function clearData() {
             document.getElementById('totalCost').textContent = '';
