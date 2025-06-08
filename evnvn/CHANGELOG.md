@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.8a
+Thêm ingress. Tự động copy file html vào thư mục evnvn, Fix hiển thị web-ui khu vực HN
+
 2025.6.7b
 Fix đăng nhập CPC Miền Trung bằng mã khách hàng
 
