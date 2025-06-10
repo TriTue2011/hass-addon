@@ -20,7 +20,7 @@ https://github.com/smarthomeblack/hass-addon
 - Nhấp **Add** để xác nhận.
 
 ## Bước 4: Cài đặt Add-on
-- Sau khi thêm kho thành công, bạn sẽ thấy các add-on từ kho `smarthomeblack` xuất hiện trong danh sách.
+- Sau khi thêm kho thành công, F5 lại trình duyệt rồi tim tên addon.
 - Nhấp vào add-on bạn muốn cài đặt, sau đó nhấp **Install** (Cài đặt).
 - Sau khi cài đặt, nhấp **Start** (Bắt đầu) để kích hoạt add-on.
 
