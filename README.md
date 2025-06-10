@@ -19,14 +19,16 @@ https://github.com/smarthomeblack/hass-addon
 
 - Nhấp **Add** để xác nhận.
 
+### Danh sách Add-on Hiện Có
+Dưới đây là danh sách các add-on hiện có trong kho :
+- **EVN VN**: Add-on hỗ trợ tích hợp và quản lý dữ liệu từ EVN(NPC Miền Bắc, SCP Miền Nam, CPC Miền Trung, EVN Hanoi, E-thanglong trên Home Assistant, giúp theo dõi và quản lý thông tin điện năng.
+ 
 ## Bước 4: Cài đặt Add-on
 - Sau khi thêm kho thành công, F5 lại trình duyệt rồi tim tên addon.
 - Nhấp vào add-on bạn muốn cài đặt, sau đó nhấp **Install** (Cài đặt).
 - Sau khi cài đặt, nhấp **Start** (Bắt đầu) để kích hoạt add-on.
 
-## Danh sách Add-on Hiện Có
-Dưới đây là danh sách các add-on hiện có trong kho `smarthomeblack/hass-addon`:
-- **EVN VN**: Add-on hỗ trợ tích hợp và quản lý dữ liệu từ EVN(NPC Miền Bắc, SCP Miền Nam, CPC Miền Trung, EVN Hanoi, E-thanglong trên Home Assistant, giúp theo dõi và quản lý thông tin điện năng.
+
 
 ## Lưu ý
 - Nếu gặp lỗi, kiểm tra kết nối mạng hoặc cập nhật Home Assistant lên phiên bản mới nhất.
