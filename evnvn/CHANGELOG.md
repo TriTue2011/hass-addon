@@ -1,6 +1,9 @@
 Changelog
 
 2025.6.8a
+Tối ưu hóa cho cpu và ram lỏ. Update Sensor Lịch Cắt Điện chuẩn xác tới từng giây(NPC và SPC)
+
+2025.6.8a
 Trước khi Update bản này vui lòng xóa file index.html để cập nhập mới. Thêm ingress để hỗ trợ https. Tự động copy file html vào thư mục evnvn, Fix hiển thị web-ui khu vực HN
 
 2025.6.7b
