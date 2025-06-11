@@ -1,7 +1,7 @@
 Changelog
 
 2025.6.11a
-Thêm ICON cho ingress wweb-ui
+Thêm ICON cho ingress wweb-ui, Fix kết nối spc
 
 2025.6.11
 Thêm lịch cắt điện cho CPC
