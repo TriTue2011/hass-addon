@@ -1,11 +1,12 @@
 name: "EVN VN"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.6.11"
+version: "2025.6.11a"
 slug: "evnvn"
 init: false
 ingress: true
 ingress_port: 1093
+panel_icon: mdi:transmission-tower-import
 map:
   - config:rw
   - data:rw
