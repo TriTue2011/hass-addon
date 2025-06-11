@@ -1,6 +1,9 @@
 Changelog
 
-2025.6.8a
+2025.6.11
+Thêm lịch cắt điện cho CPC
+
+2025.6.10
 Tối ưu hóa cho cpu và ram lỏ. Update Sensor Lịch Cắt Điện chuẩn xác tới từng giây(NPC và SPC), Tối ưu tốc độ lấy dữ liệu cho NPC...
 
 2025.6.8a
