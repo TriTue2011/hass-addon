@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.12
+Hỗ trợ đăng nhập bằng SĐT cho những username khong phải là mã khách hàng, thêm server HCMC
+
 2025.6.11a
 Thêm ICON cho ingress wweb-ui, Fix kết nối spc
 
