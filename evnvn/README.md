@@ -1,6 +1,6 @@
 # 🔌 EVN VN
 
-Công cụ EVN NPC, SPC, HN, CPC ,e-thanglong lấy dữ liệu điện tiêu thụ & tiền điện, và gửi qua MQTT về Home Assistant.
+Công cụ EVN VN lấy dữ liệu điện tiêu thụ & tiền điện, và gửi qua MQTT về Home Assistant.
 
 # Addon Home Assistant Xem Hướng Dẫn Ở Tab Tài Liệu
 
@@ -54,7 +54,7 @@ Tạo file `options.json` tại đường dẫn đã chỉ định với nội d
 
 ```json
 {
-  "accounts_json": "[{\"userevn\": \"tài_khoản_1\", \"passevn\": \"mật_khẩu_1\", \"ngaydauky\": \"1\"}, {\"userevn\": \"tài_khoản_2\", \"passevn\": \"mật_khẩu_2\", \"ngaydauky\": \"15\"}]",
+  "accounts_json": "[{\"userevn\": \"tài_khoản_1\", \"passevn\": \"mật_khẩu_1\", \"ngaydauky\": \"1\"}, {\"userevn\": \"tài_khoản_2\", \"passevn\": \"mật_khẩu_2\", \"ngaydauky\": \"15\"}, \"server\": \"\"}]",
   "mqtt_server": "192.168.1.16",
   "mqtt_port": 1883,
   "mqtt_username": "tài khoản mqtt",
@@ -65,6 +65,14 @@ Tạo file `options.json` tại đường dẫn đã chỉ định với nội d
   "ngaydauky": "1"
 }
 ```
+NPC và SPC Cần điền đúng key api gemini để bypass Capcha. Còn lại EVN khác thì điền bừa key api cũng được Nếu tên đăng nhập là mã khách hàng thì không cần điền server, nếu đăng nhập bằng số điện thoại thì điền server tương ứng với khu vực, ví dụ \"server\": \"npc\"
+
+npc : Điện lực Miền Bắc
+cpc : Điện lực Miền Trung
+spc : Điện lực Miền Nam
+hn : Điện lực Hà Nội
+tl : Điện lực Thăng Long
+hcmc : Điện lực TP Hồ Chí Minh
 
 ### 🔍 Giải thích các trường
 
