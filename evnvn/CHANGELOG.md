@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.12d
+Hỗ trợ lấy dữ liệu cho 1 tài khoản có nhiều mã khách hàng khu vực HN, CPC
+
 2025.6.12b
 Fix hiển thị sai số tiền trên web-ui cho HN. lấy thêm dữ liệu hóa đơn từ đầu năm cho e-thanglong
 
