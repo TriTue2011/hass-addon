@@ -45,7 +45,7 @@ Nếu tên đăng nhập là mã khách hàng thì không cần điền server, 
 - Sau khi config xong thì chạy addon, sang tab logs xem có lỗi gì không, đợi cho chạy xong lần đầu rồi làm bước tiếp theo
 - Vào Hacs Thêm Repo sau: https://github.com/smarthomeblack/npc
 - Sau khi thêm thì tìm EVN VN
-- Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Tên Đăng Nhập EVN để thêm các Sensor(CPC Miền trung đăng nhập bằng sdt thì khúc này nhập mã khách hàng)
+- Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Tên Đăng Nhập EVN(nếu đăng nhập bằng sdt thì chỗ này nhập mã khách hàng) để thêm các Sensor(CPC Miền trung đăng nhập bằng sdt thì khúc này nhập mã khách hàng)
 - Hoặc tải thủ công custom_components/npc về rồi copy vào Home Assistant
 
 ---
