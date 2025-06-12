@@ -1,6 +1,7 @@
 # 🔌 EVN VN
 
-Công cụ EVN VN(NPC Miền Bắc, SCP Miền Nam, CPC Miền Trung, EVN Hanoi, E-thanglong lấy dữ liệu điện tiêu thụ & tiền điện, và gửi qua MQTT về Home Assistant.
+- Công cụ EVN VN hỗ trợ toàn bộ khu vực lấy dữ liệu điện tiêu thụ & tiền điện, và gửi qua MQTT về Home Assistant.
+- Vui Lòng Đọc Kỹ Hướng Dẫn Sử Dụng Trước Khi Dùng
 
 - ✅ Không cần đăng nhập thủ công
 - ✅ Hỗ trợ MQTT Discovery (Home Assistant nhận dạng tự động)
@@ -14,8 +15,7 @@ Chú ý tài khoản cuối cùng luôn không có ký tự , ở cuối
 ```ini
 accounts_json: |
   [
-    {"userevn": "xxxxxx", "passevn": "xxxxxx", "ngaydauky": "1"},
-    {"userevn": "xxxxxx", "passevn": "xxxxxx", "ngaydauky": "15"}
+    {"userevn": "xxxxxx", "passevn": "xxxxxx", "ngaydauky": "1", "server": ""}
   ]
 mqtt_server: 192.168.1.22
 mqtt_port: 1883
@@ -29,8 +29,13 @@ ngaydauky: "1"
 
 ```
 NPC và SPC Cần điền đúng key api gemini để bypass Capcha. Còn lại EVN khác thì điền bừa key api cũng được
-
-
+Nếu tên đăng nhập là mã khách hàng thì không cần điền server, nếu đăng nhập bằng số điện thoại thì điền server tương ứng với khu vực, ví dụ "server": "npc"
+- npc : Điện lực Miền Bắc
+- cpc : Điện lực Miền Trung
+- spc : Điện lực Miền Nam
+- hn : Điện lực Hà Nội
+- tl : Điện lực Thăng Long
+- hcmc : Điện lực TP Hồ Chí Minh
 
 > Bạn cần có tài khoản [Google Gemini](https://makersuite.google.com/app/apikey) để lấy `gemini_api_key`.
 
