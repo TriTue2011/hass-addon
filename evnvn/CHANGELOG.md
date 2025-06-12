@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.12b
+Fix hiển thị sai số tiền trên web-ui cho HN. lấy thêm dữ liệu hóa đơn từ đầu năm cho e-thanglong
+
 2025.6.12a
 Hỗ trợ 3 pha cho khu vực HN
 
