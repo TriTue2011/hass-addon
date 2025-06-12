@@ -1,10 +1,13 @@
 Changelog
 
+2025.6.12a
+Hỗ trợ 3 pha cho khu vực HN
+
 2025.6.12
-Hỗ trợ đăng nhập bằng SĐT cho những username khong phải là mã khách hàng, thêm server HCMC
+Hỗ trợ đăng nhập bằng SĐT cho những username không phải là mã khách hàng, thêm server HCMC
 
 2025.6.11a
-Thêm ICON cho ingress wweb-ui, Fix kết nối spc
+Thêm ICON cho ingress web-ui, Fix kết nối spc
 
 2025.6.11
 Thêm lịch cắt điện cho CPC
