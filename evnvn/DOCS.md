@@ -54,9 +54,21 @@ Nếu tên đăng nhập là mã khách hàng thì không cần điền server, 
 
 Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ liệu, các cảm biến sẽ xuất hiện trong Home Assistant nhờ MQTT Discovery:
 
-- `Tieu Thu Hom Nay`
-- `Tien Dien Thang Truoc`
-- `Chi So Cuoi Ky`
+- `Chỉ số đầu kỳ`
+- `Chỉ số cuối kỳ`
+- `Chỉ số tạm chốt`
+- `Tiêu thụ tháng này`
+- `Tiêu thụ hôm nay`
+- `Tiêu thụ hôm qua`
+- `Tiêu thụ hôm kia`
+- `Tiêu thụ tháng trước`
+- `Tiền điện tháng trước`
+- `Tiền điện tháng này`
+- `Update Last`
+- `Chi tiết tháng này`
+- `Tiền điện sản lượng năm nay`
+- `Lịch cắt điện`
+
 - Và nhiều cảm biến khác
 
 ---

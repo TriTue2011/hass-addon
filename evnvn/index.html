@@ -313,7 +313,7 @@
                 }
             });
 
-            // Sắp xếp dailyData từ cũ nhất trước (cho biểu đồ)
+            // sắp xếp dailyData từ cũ nhất trước (cho biểu đồ)
             dailyData.sort((a, b) => new Date(a.Ngày.split('-').reverse().join('-')) - new Date(b.Ngày.split('-').reverse().join('-')));
 
             // Sắp xếp monthlyData từ cũ nhất trước (cho biểu đồ)

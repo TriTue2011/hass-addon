@@ -106,6 +106,29 @@ homeassistant/tên_tài_khoản/...
 - Hoặc tải thủ công custom_components/npc về rồi copy vào Home Assistant
 ---
 
+## 📡 Kết quả
+
+Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ liệu, các cảm biến sẽ xuất hiện trong Home Assistant nhờ MQTT Discovery:
+
+- `Chỉ số đầu kỳ`
+- `Chỉ số cuối kỳ`
+- `Chỉ số tạm chốt`
+- `Tiêu thụ tháng này`
+- `Tiêu thụ hôm nay`
+- `Tiêu thụ hôm qua`
+- `Tiêu thụ hôm kia`
+- `Tiêu thụ tháng trước`
+- `Tiền điện tháng trước`
+- `Tiền điện tháng này`
+- `Update Last`
+- `Chi tiết tháng này`
+- `Tiền điện sản lượng năm nay`
+- `Lịch cắt điện`
+
+- Và nhiều cảm biến khác
+
+---
+
 ## 🛠️ Ghi chú
 
 - Đảm bảo thông tin đăng nhập EVN là chính xác.
