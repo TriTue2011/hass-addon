@@ -1,5 +1,7 @@
 Changelog
 
+2025.6.16
+Fix dữ liệu cảm biến theo chuẩn mới, loại bỏ hoàn toàn sự phụ thuộc mqtt và ngaydauky ở config
 
 2025.6.15d
 Chuyển đổi phương thức lưu trữ từ Json lỏ sang SQLite để lưu trữ lâu dài tránh lag
