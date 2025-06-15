@@ -1,7 +1,7 @@
 Changelog
 
-2025.6.15
-Chuyển đổi phương thức lưu trữ từ Json sang SQLite để lưu trữ lâu dài tránh lag
+2025.6.15a
+Chuyển đổi phương thức lưu trữ từ Json lỏ sang SQLite để lưu trữ lâu dài tránh lag
 
 2025.6.12d
 Hỗ trợ lấy dữ liệu cho 1 tài khoản có nhiều mã khách hàng khu vực HN, CPC
