@@ -1,6 +1,6 @@
 Changelog
 
-2025.6.15b
+2025.6.15a
 Chuyển đổi phương thức lưu trữ từ Json lỏ sang SQLite để lưu trữ lâu dài tránh lag
 
 2025.6.12d
