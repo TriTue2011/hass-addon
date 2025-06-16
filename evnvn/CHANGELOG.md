@@ -1,7 +1,7 @@
 Changelog
 
 2025.6.17
-Fix mất dữ liệu cho server SPC vì server SPC không ổn định, Ae SPC vui lòng xóa file evndata.db cũ đi rồi khởi động lại addon
+Fix mất dữ liệu cho server SPC vì server SPC không ổn định, Ae SPC vui lòng xóa file evndata.db cũ đi rồi khởi động lại addon,SPC có thể không lấy được dữ liệu ngay vì server thi thoảng lag, cứ để addon chạy 
 
 2025.6.16b
 WEB-UI mới, tối ưu hóa bypass CAPCHA ngon hơn
