@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.16b
+WEB-UI mới, tối ưu hóa bypass CAPCHA ngon hơn
+
 2025.6.16
 Fix dữ liệu cảm biến theo chuẩn mới, loại bỏ hoàn toàn sự phụ thuộc mqtt và ngaydauky ở config
 
