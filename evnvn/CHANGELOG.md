@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.17
+Fix mất dữ liệu cho server SPC vì server SPC không ổn định, Ae SPC vui lòng xóa file evndata.db cũ đi rồi khởi động lại addon
+
 2025.6.16b
 WEB-UI mới, tối ưu hóa bypass CAPCHA ngon hơn
 
