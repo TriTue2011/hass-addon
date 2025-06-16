@@ -1,10 +1,9 @@
 # 🔌 EVN VN
 
-- Công cụ EVN VN hỗ trợ toàn bộ khu vực lấy dữ liệu điện tiêu thụ & tiền điện, và gửi qua MQTT về Home Assistant.
+- Công cụ EVN VN hỗ trợ toàn bộ khu vực lấy dữ liệu điện tiêu thụ & tiền điện.
 - Vui Lòng Đọc Kỹ Hướng Dẫn Sử Dụng Trước Khi Dùng
 
 - ✅ Không cần đăng nhập thủ công
-- ✅ Hỗ trợ MQTT Discovery (Home Assistant nhận dạng tự động)
 
 ---
 
@@ -15,16 +14,10 @@ Chú ý tài khoản cuối cùng luôn không có ký tự , ở cuối
 ```ini
 accounts_json: |
   [
-    {"userevn": "xxxxxx", "passevn": "xxxxxx", "ngaydauky": "1", "server": ""}
+    {"userevn": "xxxxxx", "passevn": "xxxxxx", "server": ""}
   ]
-mqtt_server: 192.168.1.22
-mqtt_port: 1883
-mqtt_username: admin
-mqtt_password: 11223344
-mqtt_topic_prefix: homeassistant
 gemini_api_key: Key API
 gemini_model: gemini-2.0-flash
-ngaydauky: "1"
 
 
 ```
@@ -47,14 +40,14 @@ Nếu tên đăng nhập là mã khách hàng thì không cần điền server, 
 - Hoặc bấm vào đây:
 - [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=smarthomeblack&repository=npc)
 - Sau khi thêm thì tìm EVN VN
-- Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Tên Đăng Nhập EVN(nếu đăng nhập bằng sdt thì chỗ này nhập mã khách hàng) để thêm các Sensor(CPC Miền trung đăng nhập bằng sdt thì khúc này nhập mã khách hàng)
+- Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Mã Khách Hàng(nếu đăng nhập bằng sdt thì chỗ này nhập mã khách hàng) để thêm các Sensor
 - Hoặc tải thủ công custom_components/npc về rồi copy vào Home Assistant
 
 ---
 
 ## 📡 Kết quả
 
-Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ liệu, các cảm biến sẽ xuất hiện trong Home Assistant nhờ MQTT Discovery:
+Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ liệu:
 
 - `Chỉ số đầu kỳ`
 - `Chỉ số cuối kỳ`
