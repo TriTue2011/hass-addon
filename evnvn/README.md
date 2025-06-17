@@ -40,11 +40,11 @@ services:
     environment:
       - TZ=Asia/Ho_Chi_Minh
     volumes:
-      - /DATA/AppData/evnvn_docker:/config/evnvn
-      - /DATA/AppData/evnvn_docker/options.json:/data/options.json
+      - /DATA/AppData/homeassistant/config/evnvn:/config/evnvn
+      - /DATA/AppData/homeassistant/config/evnvn/options.json:/data/options.json
 ```
 
-> 📁 Đảm bảo bạn đã tạo sẵn thư mục `/DATA/AppData/evnvn_docker` và file `options.json` bên trong đó.hoặc sử dụng thư mục tùy ý của bạn
+> 📁 Đảm bảo bạn đã tạo sẵn thư mục `/DATA/AppData/homeassistant/config/evnvn` và file `options.json` bên trong đó.
 
 ---
 
@@ -54,15 +54,9 @@ Tạo file `options.json` tại đường dẫn đã chỉ định với nội d
 
 ```json
 {
-  "accounts_json": "[{\"userevn\": \"tài_khoản_1\", \"passevn\": \"mật_khẩu_1\", \"ngaydauky\": \"1\"}, {\"userevn\": \"tài_khoản_2\", \"passevn\": \"mật_khẩu_2\", \"ngaydauky\": \"15\"}, \"server\": \"\"}]",
-  "mqtt_server": "192.168.1.16",
-  "mqtt_port": 1883,
-  "mqtt_username": "tài khoản mqtt",
-  "mqtt_password": "mật khẩu mqtt",
-  "mqtt_topic_prefix": "homeassistant",
+  "accounts_json": "[{\"userevn\": \"tài_khoản_1\", \"passevn\": \"mật_khẩu_1\", \"server\": \"\"}}, {\"userevn\": \"tài_khoản_2\", \"passevn\": \"mật_khẩu_2\", \"server\": \"\"}]",
   "gemini_api_key": "api_key_gemini",
   "gemini_model": "gemini-2.0-flash",
-  "ngaydauky": "1"
 }
 ```
 NPC và SPC Cần điền đúng key api gemini để bypass Capcha. Còn lại EVN khác thì điền bừa key api cũng được Nếu tên đăng nhập là mã khách hàng thì không cần điền server, nếu đăng nhập bằng số điện thoại thì điền server tương ứng với khu vực, ví dụ \"server\": \"npc\"
