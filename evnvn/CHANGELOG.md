@@ -1,7 +1,7 @@
 Changelog
 
 2025.6.18
-Chuẩn hóa dữ liệu lưu trữ phục vụ cho lâu dài,nên xóa file evndata.db trước khi update,bản update ổn định sau bao ngày beta
+Chuẩn hóa dữ liệu lưu trữ phục vụ cho lâu dài,xóa file evndata.db trước khi update,bản update ổn định sau bao ngày beta
 
 2025.6.17
 Fix mất dữ liệu cho server SPC vì server SPC không ổn định, Ae SPC vui lòng xóa file evndata.db cũ đi rồi khởi động lại addon,SPC có thể không lấy được dữ liệu ngay vì server thi thoảng lag, cứ để addon chạy 
