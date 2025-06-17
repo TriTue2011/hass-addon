@@ -40,7 +40,7 @@ Nếu tên đăng nhập là mã khách hàng thì không cần điền server, 
 - Hoặc bấm vào đây:
 - [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=smarthomeblack&repository=npc)
 - Sau khi thêm thì tìm EVN VN
-- Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Mã Khách Hàng(nếu đăng nhập bằng sdt thì chỗ này nhập mã khách hàng) để thêm các Sensor
+- Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Mã Khách Hàng(userevn là sdt thì chỗ này cũng nhập Mã Khách Hàng) để thêm các Sensor
 - Hoặc tải thủ công custom_components/npc về rồi copy vào Home Assistant
 
 ---
