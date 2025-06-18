@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.18a
+Fix web-ui vs data khu vực HN, xóa evndata.db trước khi update
+
 2025.6.18
 Chuẩn hóa dữ liệu lưu trữ phục vụ cho lâu dài,buộc xóa file evndata.db trước khi update,bản update ổn định sau bao ngày beta, vui lòng update EVN VN trên HACS lên bản 2025.6.18
 
