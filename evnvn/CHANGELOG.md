@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.22
+Fix lấy dữ liệu hóa đơn trên 1tr, thêm cấu hình ngày đầu kỳ vào web-ui để hiển thị cho chính xác theo khu vực, web-ui nhiều cải tiến, xóa index.html trước khi update nếu muốn dùng web-ui mới,ai dùng mod không có nhu cầu thì không cần xóa
+
 2025.6.18a
 Fix web-ui vs data khu vực HN, xóa evndata.db trước khi update
 
