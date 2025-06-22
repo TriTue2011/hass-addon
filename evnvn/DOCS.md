@@ -10,6 +10,20 @@
 ## 🚀 Cách sử dụng
 
 ### 1. Tạo cấu hình
+
+#### Cách 1 - Cấu hình bằng web-ui
+
+- Sau khi cài addon thành công, chạy addon rồi vào giao diện web-ui cấu hình
+
+<img title="EVN VN ADDON" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/1.png" width="100%"></img>
+
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/2.png" width="100%"></img>
+
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/3.png" width="100%"></img>
+
+#### Cách 2 - Cấu hình bằng tab cấu hình trên addon
+
+- Sau khi cái addon thành công, sang tab cấu hình để thêm thông tin tài khoản, key api như hướng dẫn bên dưới
 Chú ý tài khoản cuối cùng luôn không có ký tự , ở cuối
 ```ini
 accounts_json: |
@@ -68,10 +82,6 @@ Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ
 
 ---
 
-## View Html
-
-- Bật hiển thị thanh bên trên addon EVN VN
-
 ---
   
 ## Hiển Thị Cảm Biến Trên Home Assistant
@@ -124,8 +134,11 @@ content: |
 
 ## 🖼️ Demo
 
-<img title="NPC Cảm Biến Cơ Bản" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/evn1.png" width="500px"></img>
-<img title="NPC Cảm Biến Cơ Bản" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/evn2.png" width="500px"></img>
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/6.png" width="100%"></img>
+
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/4.png" width="100%"></img>
+
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/5.png" width="100%"></img>
 
 ---
 

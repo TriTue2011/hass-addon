@@ -133,8 +133,11 @@ Sau khi khởi chạy lần đầu sẽ mất chút thời gian để lấy dữ
 
 ## 🖼️ Demo
 
-<img title="NPC Cảm Biến Cơ Bản" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/evn1.png" width="500px"></img>
-<img title="NPC Cảm Biến Cơ Bản" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/evn2.png" width="500px"></img>
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/6.png" width="100%"></img>
+
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/4.png" width="100%"></img>
+
+<img title="EVNVN WEB-UI" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/5.png" width="100%"></img>
 
 ---
 

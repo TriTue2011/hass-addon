@@ -1,7 +1,7 @@
 name: "EVN VN"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.6.22a"
+version: "2025.6.23"
 slug: "evnvn"
 init: false
 ingress: true
@@ -17,7 +17,9 @@ options:
     ]
   gemini_api_key: "API_KEY"
   gemini_model: "gemini-2.0-flash"
-
+host_network: true
+hassio_api: true
+hassio_role: "admin"
 ports:
   1093/tcp: null
 schema:
