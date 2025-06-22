@@ -19,6 +19,7 @@ options:
   gemini_model: "gemini-2.0-flash"
 host_network: true
 hassio_api: true
+hassio_role: "admin"
 ports:
   1093/tcp: null
 schema:
