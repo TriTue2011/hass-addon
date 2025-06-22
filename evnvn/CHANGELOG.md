@@ -1,5 +1,8 @@
 Changelog
 
+2025.6.23
+Hỗ trợ cấu hình tài khoản(thêm,xóa..) bên trong web-ui mà không cần cấu hình trên addon !
+
 2025.6.22a
 fix trình duyệt bị lỗi khi F5.mọi người xóa thư mục assets trong config/evnvn
 
