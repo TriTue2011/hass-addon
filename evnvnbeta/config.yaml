@@ -13,10 +13,6 @@ map:
 
 ports:
   1093/tcp: null
-schema:
-  accounts_json: str
-  gemini_api_key: str
-  gemini_model: str
 
 arch:
   - amd64
