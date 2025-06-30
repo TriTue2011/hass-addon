@@ -1,7 +1,7 @@
 Changelog
 
 2025.6.30
-Hỗ trợ lấy file hóa đơn PDF gửi qua telegram khi có hóa đơn mới,vui lòng update cả EVN VN trên HACS lên cùng ver để dùng tính năng này
+Hỗ trợ lấy file hóa đơn PDF gửi qua telegram khi có hóa đơn mới,vui lòng update cả EVN VN trên HACS lên cùng ver để dùng tính năng này, và đã config telegram trên HASS
 
 2025.6.23
 Hỗ trợ cấu hình tài khoản(thêm,xóa..) bên trong web-ui mà không cần cấu hình trên addon !
