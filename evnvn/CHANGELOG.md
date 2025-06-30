@@ -1,5 +1,8 @@
 Changelog
 
+2025.7.1
+Thêm cảm biến Tiền nợ hóa đơn.Hỗ trợ lấy file hóa đơn PDF gửi qua telegram khi có hóa đơn mới,vui lòng update cả EVN VN trên HACS lên cùng ver để dùng tính năng này, và đã config telegram trên HASS
+
 2025.6.30
 Hỗ trợ lấy file hóa đơn PDF gửi qua telegram khi có hóa đơn mới,vui lòng update cả EVN VN trên HACS lên cùng ver để dùng tính năng này, và đã config telegram trên HASS
 
