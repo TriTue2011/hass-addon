@@ -53,11 +53,13 @@ services:
 Tạo file `options.json` tại đường dẫn đã chỉ định với nội dung như sau:
 
 ```json
+
 {
   "accounts_json": "[{\"userevn\": \"tài_khoản_1\", \"passevn\": \"mật_khẩu_1\", \"server\": \"\"}}, {\"userevn\": \"tài_khoản_2\", \"passevn\": \"mật_khẩu_2\", \"server\": \"\"}]",
   "gemini_api_key": "api_key_gemini",
-  "gemini_model": "gemini-2.0-flash",
+  "gemini_model": "gemini-2.0-flash"
 }
+
 ```
 NPC và SPC Cần điền đúng key api gemini để bypass Capcha. Còn lại EVN khác thì điền bừa key api cũng được Nếu tên đăng nhập là mã khách hàng thì không cần điền server, nếu đăng nhập bằng số điện thoại thì điền server tương ứng với khu vực, ví dụ \"server\": \"npc\"
 
@@ -94,8 +96,8 @@ Các thông tin sẽ được publish đến MQTT dưới topic:
 homeassistant/tên_tài_khoản/...
 ```
 
-- Vào Hacs Thêm Repo sau: https://github.com/smarthomeblack/npc
-- Sau khi thêm thì tìm EVN VN
+- Bấm vào đây để tải EVN VN trên HACS:
+- [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=smarthomeblack&repository=npc)
 - Khởi động lại Home Assistant, Vào Thiết Bị --> Thêm Thiết bị --> Nhập Tên Đăng Nhập EVN để thêm các Sensor(CPC Miền trung đăng nhập bằng sdt thì khúc này nhập mã khách hàng)
 - Hoặc tải thủ công custom_components/npc về rồi copy vào Home Assistant
 ---
