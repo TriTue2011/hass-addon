@@ -23,6 +23,8 @@ https://github.com/smarthomeblack/hass-addon
 Dưới đây là danh sách các add-on hiện có trong kho :
 - **EVN VN**: Add-on hỗ trợ tích hợp và quản lý dữ liệu từ EVN(NPC Miền Bắc, SCP Miền Nam, CPC Miền Trung, EVN Hanoi, E-thanglong trên Home Assistant, giúp theo dõi và quản lý thông tin điện năng.
  
+- **Zalo Bot**: Add-on cho phép tạo và quản lý bot Zalo trên Home Assistant, giúp bạn có thể tự động hóa
+
 ## Bước 4: Cài đặt Add-on
 - Sau khi thêm kho thành công, F5 lại trình duyệt rồi tim tên addon.
 - Nhấp vào add-on bạn muốn cài đặt, sau đó nhấp **Install** (Cài đặt).
