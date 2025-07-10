@@ -39,6 +39,7 @@ services:
       - TZ=Asia/Ho_Chi_Minh
     volumes:
       - /DATA/AppData/Hass/config/zalo_bot:/app/data
+      - /DATA/AppData/Hass/config/www/zalo_bot:/config/www/zalo_bot
 ```
 
 > 📁 Đảm bảo thư mục `/DATA/AppData/Hass/config/` là thư mục config của Home Assistant.
