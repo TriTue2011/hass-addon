@@ -1,7 +1,7 @@
 name: "Zalo Bot"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.7.9b"
+version: "2025.7.9c"
 slug: "zalo_bot"
 init: false
 ingress: true
@@ -21,5 +21,9 @@ image: "ghcr.io/smarthomeblack/zalobot-{arch}"
 # Cấu hình cho add-on
 options:
   data_directory: "/config/zalo_bot"
+  session_secret: "zalo-server-secret-key" 
+  api_key: ""
 schema:
   data_directory: "str"
+  session_secret: "str"
+  api_key: "str?"
