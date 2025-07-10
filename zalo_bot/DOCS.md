@@ -23,7 +23,7 @@ ZALO BOT là một Addon cho phép bạn gửi và nhận tin nhắn, thông bá
 - Đăng nhập quản trị bằng tài khoản mặc định admin/admin
 - Sau đó chọn Đăng nhập Zalo --> Tạo mã QR --> Dùng điện thoại quét mã để đăng nhập
 
-<img title="Zalo Bot ADDON" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/evnvn/1.png" width="100%"></img>
+<img title="Zalo Bot ADDON" src="https://raw.githubusercontent.com/smarthomeblack/hass-addon/refs/heads/main/zalo_bot/1.png" width="100%"></img>
 ---
 
 ## 📡 Cài Bộ tích hợp ZALO BOT
