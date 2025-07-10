@@ -1,0 +1,18 @@
+name: "Zalo Bot"
+description: "Add-on EVN VN in Home Assistant"
+url: "https://github.com/smarthomeblack/hass-addon"
+version: "2025.7.3"
+slug: "zalo_bot"
+init: false
+ingress: true
+ingress_port: 3000
+panel_icon: mdi:chat
+map:
+  - config:rw
+  - data:rw
+host_network: true
+ports:
+  3000/tcp: null
+arch:
+  - amd64
+image: "ghcr.io/smarthomeblack/zalobot-{arch}"
