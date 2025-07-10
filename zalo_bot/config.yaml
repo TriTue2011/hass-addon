@@ -1,7 +1,7 @@
 name: "Zalo Bot"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.7.9"
+version: "2025.7.9a"
 slug: "zalo_bot"
 init: false
 ingress: true
