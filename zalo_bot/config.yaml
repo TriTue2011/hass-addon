@@ -1,7 +1,7 @@
 name: "Zalo Bot"
 description: "Add-on Zalo Bot in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.7.11"
+version: "2025.7.11a"
 slug: "zalo_bot"
 init: false
 map:
@@ -13,6 +13,10 @@ ports:
   3000/tcp: null
 arch:
   - amd64
+  - aarch64
+  - armv7
+  - armhf
+  - i386
 image: "ghcr.io/smarthomeblack/zalobot-{arch}"
 
 # Cấu hình cho add-on
