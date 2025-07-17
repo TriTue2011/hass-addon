@@ -1,5 +1,8 @@
 Changelog
 
+2025.7.18
+Thêm tiền nợ khu vực NPC, Fix lấy hóa đơn kỳ mới NPC
+
 2025.7.3
 Fix tiền nợ CPC, HN,Fix lỗi hiển thị sai tiền nợ server HCMC. Fix lấy dữ liệu lỗi do cập nhập chậm server HN(server HN xóa evndata.db ở config/evnvn trước khi update để lấy lại dữ liệu chuẩn nhất).Chú ý đang thời kỳ sáp nhập nên đa số các server đang bảo trì khá nhiều nên trong ngày sẽ có thời điểm api không thể truy cập được.mọi người không cần lo lắng cứ kệ nó vì addon 2 tiếng lấy dữ liệu 1 lần
 
