@@ -1,7 +1,7 @@
 name: "EVN VN"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.7.18"
+version: "2025.7.19"
 slug: "evnvn"
 init: false
 ingress: true
@@ -17,6 +17,13 @@ options:
     ]
   gemini_api_key: "API_KEY"
   gemini_model: "gemini-2.0-flash"
+  threadId: "123456789"
+  type: "group"
+  accountSelection: "+84999999999"
+  urlzalo: "http://192.168.1.22:3000"
+  telegram_token: ""
+  telegram_chat_id: ""
+  telegram_thread_id: 0
 host_network: true
 hassio_api: true
 hassio_role: "admin"
@@ -26,6 +33,13 @@ schema:
   accounts_json: str
   gemini_api_key: str
   gemini_model: str
+  threadId: str?
+  type: str?
+  accountSelection: str?
+  urlzalo: str?
+  telegram_token: str?
+  telegram_chat_id: str?
+  telegram_thread_id: int?
 
 arch:
   - amd64
