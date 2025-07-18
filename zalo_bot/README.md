@@ -1,3 +1,9 @@
+## ❓ Nhóm Support:
+- Zalo: https://zalo.me/g/alvkgn274
+- Telegram: https://t.me/smarthomeblack
+
+---
+
 # 🤖 ZALO BOT
 
 ZALO BOT gửi và nhận tin nhắn, thông báo trên Home Assistant.

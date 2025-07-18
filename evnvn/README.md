@@ -1,3 +1,9 @@
+## ❓ Nhóm Support:
+- Zalo: https://zalo.me/g/alvkgn274
+- Telegram: https://t.me/smarthomeblack
+
+---
+
 # 🔌 EVN VN
 
 Công cụ EVN VN lấy dữ liệu điện tiêu thụ & tiền điện, và gửi qua MQTT về Home Assistant.

@@ -1,3 +1,9 @@
+## ❓ Nhóm Support:
+- Zalo: https://zalo.me/g/alvkgn274
+- Telegram: https://t.me/smarthomeblack
+
+---
+
 # 🔌 EVN VN
 
 - Công cụ EVN VN hỗ trợ toàn bộ khu vực lấy dữ liệu điện tiêu thụ & tiền điện.

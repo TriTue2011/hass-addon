@@ -1,3 +1,9 @@
+## ❓ Nhóm Support:
+- Zalo: https://zalo.me/g/alvkgn274
+- Telegram: https://t.me/smarthomeblack
+
+---
+
 # Ai Dùng Docker thì vào thư mục từng dự án sẽ có hướng dẫn riêng cho Docker
 
 # Hướng Dẫn Thêm Kho Add-on cho Home Assistant
