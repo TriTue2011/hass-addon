@@ -1,7 +1,7 @@
 name: "EVN VN BETA"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.7.19d"
+version: "2025.7.19e"
 slug: "evnvnbeta"
 init: false
 ingress: true
@@ -33,13 +33,13 @@ schema:
   accounts_json: str
   gemini_api_key: str
   gemini_model: str
-  threadId: str
-  type: str
-  accountSelection: str
-  urlzalo: str
-  telegram_token: str
-  telegram_chat_id: str
-  telegram_thread_id: int
+  threadId: str?
+  type: str?
+  accountSelection: str?
+  urlzalo: str?
+  telegram_token: str?
+  telegram_chat_id: str?
+  telegram_thread_id: int?
 
 arch:
   - amd64
