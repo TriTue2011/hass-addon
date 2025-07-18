@@ -1,7 +1,7 @@
 Changelog
 
 2025.7.19
-Thêm cấu hình gửi hóa đơn qua zalo và telegram
+Thêm cấu hình gửi hóa đơn qua zalo và telegram,chú ý nếu bạn đã thêm API TOKEN TELE vào hass thì hãy tạo 1 bot mới rồi lấy api token bot mới rồi thêm vào nhóm để cấu hình, vì telegram không cho phép 1 bot chạy ở 2 server
 
 2025.7.18
 Thêm tiền nợ khu vực NPC, Fix lấy hóa đơn kỳ mới NPC

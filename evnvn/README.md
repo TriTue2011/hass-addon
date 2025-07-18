@@ -95,6 +95,8 @@ hcmc : Điện lực TP Hồ Chí Minh
 - `accountSelection`: SĐT BOT ZALO
 - `urlzalo`: IP Server ZALO BOT
 
+- chú ý nếu bạn đã thêm API TOKEN TELE vào hass thì hãy tạo 1 bot mới rồi lấy api token bot mới rồi thêm vào nhóm để cấu hình, vì telegram không cho phép 1 bot chạy ở 2 server
+
 ---
 
 ## ▶️ Chạy container

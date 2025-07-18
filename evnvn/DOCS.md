@@ -31,6 +31,8 @@
 
 - Sau khi cái addon thành công, sang tab cấu hình để thêm thông tin tài khoản, key api như hướng dẫn bên dưới
 Chú ý tài khoản cuối cùng luôn không có ký tự , ở cuối
+- chú ý nếu bạn đã thêm API TOKEN TELE vào hass thì hãy tạo 1 bot mới rồi lấy api token bot mới rồi thêm vào nhóm để cấu hình, vì telegram không cho phép 1 bot chạy ở 2 server
+
 ```ini
 accounts_json: |
   [
