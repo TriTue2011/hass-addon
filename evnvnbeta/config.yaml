@@ -1,7 +1,7 @@
 name: "EVN VN BETA"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.7.19c"
+version: "2025.7.19d"
 slug: "evnvnbeta"
 init: false
 ingress: true
