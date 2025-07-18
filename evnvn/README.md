@@ -61,9 +61,17 @@ Tạo file `options.json` tại đường dẫn đã chỉ định với nội d
 ```json
 
 {
-  "accounts_json": "[{\"userevn\": \"tài_khoản_1\", \"passevn\": \"mật_khẩu_1\", \"server\": \"\"}}, {\"userevn\": \"tài_khoản_2\", \"passevn\": \"mật_khẩu_2\", \"server\": \"\"}]",
+  "accounts_json": "[{\"userevn\": \"tài_khoản_1\", \"passevn\": \"mật_khẩu_1\", \"server\": \"\"}, {\"userevn\": \"tài_khoản_2\", \"passevn\": \"mật_khẩu_2\", \"server\": \"\"}]",
   "gemini_api_key": "api_key_gemini",
-  "gemini_model": "gemini-2.0-flash"
+  "gemini_model": "gemini-2.0-flash",
+  "threadId": "123456789",
+  "type": "group",
+  "accountSelection": "+84999999999",
+  "urlzalo": "http://192.168.1.22:3000",
+  "telegram_token": "",
+  "telegram_chat_id": "",
+  "telegram_thread_id": "0"
+
 }
 
 ```
@@ -82,6 +90,10 @@ hcmc : Điện lực TP Hồ Chí Minh
 - `mqtt_server`, `mqtt_port`, `mqtt_username`, `mqtt_password`: Thông tin kết nối MQTT
 - `gemini_api_key`, `gemini_model`: Dùng để bypass capcha(Chỉ dùng cho NPC và SPC, Các khu vực khác điền bừa cũng được)
 - `ngaydauky`: Mặc định cho kỳ điện nếu không chỉ định riêng từng tài khoản
+- `threadId`: Luồng id trò chuyện Zalo
+- `type`: group nếu là nhóm, user nếu là cá nhân
+- `accountSelection`: SĐT BOT ZALO
+- `urlzalo`: IP Server ZALO BOT
 
 ---
 

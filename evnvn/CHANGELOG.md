@@ -1,5 +1,8 @@
 Changelog
 
+2025.7.19
+Thêm cấu hình gửi hóa đơn qua zalo và telegram
+
 2025.7.18
 Thêm tiền nợ khu vực NPC, Fix lấy hóa đơn kỳ mới NPC
 

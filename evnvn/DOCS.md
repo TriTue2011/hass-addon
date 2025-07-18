@@ -36,19 +36,30 @@ accounts_json: |
   [
     {"userevn": "xxxxxx", "passevn": "xxxxxx", "server": ""}
   ]
-gemini_api_key: Key API
+gemini_api_key: 
 gemini_model: gemini-2.0-flash
+threadId: "123456789"
+type: group
+accountSelection: "+84999999999"
+urlzalo: http://192.168.1.22:3000
+telegram_token: ""
+telegram_chat_id: ""
+telegram_thread_id: 0
 
 
 ```
 NPC và SPC Cần điền đúng key api gemini để bypass Capcha. Còn lại EVN khác thì điền bừa key api cũng được
 Nếu tên đăng nhập là mã khách hàng thì không cần điền server, nếu đăng nhập bằng số điện thoại thì điền server tương ứng với khu vực, ví dụ "server": "npc"
-- npc : Điện lực Miền Bắc
-- cpc : Điện lực Miền Trung
-- spc : Điện lực Miền Nam
-- hn : Điện lực Hà Nội
-- tl : Điện lực Thăng Long
-- hcmc : Điện lực TP Hồ Chí Minh
+- `npc` : Điện lực Miền Bắc
+- `cpc` : Điện lực Miền Trung
+- `spc` : Điện lực Miền Nam
+- `hn` : Điện lực Hà Nội
+- `tl` : Điện lực Thăng Long
+- `hcmc` : Điện lực TP Hồ Chí Minh
+- `threadId`: Luồng id trò chuyện Zalo
+- `type`: group nếu là nhóm, user nếu là cá nhân
+- `accountSelection`: SĐT BOT ZALO
+- `urlzalo`: IP Server ZALO BOT
 
 > Bạn cần có tài khoản [Google Gemini](https://makersuite.google.com/app/apikey) để lấy `gemini_api_key`.
 
