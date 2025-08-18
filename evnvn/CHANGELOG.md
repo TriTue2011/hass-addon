@@ -1,6 +1,10 @@
 Changelog
 
 2025.7.19
+Hỗ trợ nhiều mã khách hàng cùng 1 tài khoản server HCMC. Fix hóa đơn PDF bị sai server HCMC
+Phiên bản cuối cùng hỗ trợ các cpu đời cũ như armv7,armhf,i386 và các cpu trên android box
+
+2025.7.19
 Thêm cấu hình gửi hóa đơn qua zalo và telegram,chú ý nếu bạn đã thêm API TOKEN TELE vào hass thì hãy tạo 1 bot mới rồi lấy api token bot mới rồi thêm vào nhóm để cấu hình, vì telegram không cho phép 1 bot chạy ở 2 server
 
 2025.7.18

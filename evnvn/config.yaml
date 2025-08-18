@@ -1,7 +1,7 @@
 name: "EVN VN"
 description: "Add-on EVN VN in Home Assistant"
 url: "https://github.com/smarthomeblack/hass-addon"
-version: "2025.7.19"
+version: "2025.8.19"
 slug: "evnvn"
 init: false
 ingress: true
@@ -13,7 +13,7 @@ map:
 options:
   accounts_json: >
     [
-      {"userevn": "tài khoản evn", "passevn": "mật khẩu evn", "server": ""}
+      {"userevn": "tài khoản evn", "passevn": "mật khẩu evn", "server": "npc"}
     ]
   gemini_api_key: "API_KEY"
   gemini_model: "gemini-2.0-flash"
