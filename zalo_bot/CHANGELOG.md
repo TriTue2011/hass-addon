@@ -1,5 +1,8 @@
 Changelog
 
+2025.8.30a
+Thêm TTL(thời gian tự hủy) tin nhắn, ảnh, file. Hỗ trợ thêm gửi ảnh có kèm tin nhắn
+
 2025.8.30
 Thêm API gửi đang soạn tin nhắn
 
