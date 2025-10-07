@@ -1,5 +1,8 @@
 Changelog
 
+2025.10.8
+Fix hoàn toàn lỗi khởi động lại bị đăng xuất zalo, thêm trích dẫn tin nhắn, thêm kiểm tra trạng thái đăng nhập zalo account...
+
 2025.8.30a
 Thêm TTL(thời gian tự hủy) tin nhắn, ảnh, file. Hỗ trợ thêm gửi ảnh có kèm tin nhắn
 
