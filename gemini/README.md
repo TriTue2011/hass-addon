@@ -34,7 +34,7 @@ LLM FREE TOKEN.
 
 services:
   gemini-web-api:
-    image: ghcr.io/smarthomeblack/gemini-web-api
+    image: ghcr.io/smarthomeblack/gemini-web-api-amd64
     container_name: gemini-web-api
     ports:
       - "5002:5002"
