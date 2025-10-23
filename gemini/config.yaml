@@ -1,0 +1,25 @@
+name: "Gemini Web API"
+description: "Add-on Gemini Web API in Home Assistant"
+url: "https://github.com/smarthomeblack/hass-addon"
+version: "2025.10.23"
+slug: "gemini"
+init: false
+map:
+  - config:rw
+  - data:rw
+host_network: true
+ports:
+  5002/tcp: null
+arch:
+  - amd64
+  - aarch64
+  - armv7
+  - armhf
+  - i386
+image: "ghcr.io/smarthomeblack/gemini-web-api-{arch}"
+
+# Cấu hình cho add-on
+options:
+  data_directory: "/config/gemini-web-api"
+schema:
+  data_directory: "str"

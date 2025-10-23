@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trích xuất cookie Gemini</title>
+  <style>
+    body { font-family: Arial; margin: 30px; }
+    textarea, input { width: 100%; margin-bottom: 10px; }
+    .result { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Trích xuất cookie Gemini</h2>
+  <label>Nhập toàn bộ chuỗi cookie:</label>
+  <textarea id="cookieInput" rows="5" placeholder="Dán toàn bộ cookie ở đây"></textarea>
+  <button onclick="extractCookie()">Trích xuất</button>
+  <h3>Kết quả (copy dán vào file my_cookie.txt):</h3>
+  <textarea id="result" class="result" rows="3" readonly></textarea>
+  <script>
+    function extractCookie() {
+      const input = document.getElementById('cookieInput').value;
+      function getValue(name) {
+        const match = input.match(new RegExp(name + '=([^;]+)'));
+        return match ? match[1] : '';
+      }
+      const psid = getValue('__Secure-1PSID');
+      const psidts = getValue('__Secure-1PSIDTS');
+      let result = '';
+      result += '__Secure-1PSID=' + psid + '\\n';
+      result += '__Secure-1PSIDTS=' + psidts;
+      document.getElementById('result').value = result.replace(/\\n/g, '\\n').replace(/\\\\n/g, '\\n').replace(/\\n/g, '\\n');
+      // Đảm bảo xuống dòng thật
+      document.getElementById('result').value = '__Secure-1PSID=' + psid + '\\n' + '__Secure-1PSIDTS=' + psidts;
+      document.getElementById('result').value = '__Secure-1PSID=' + psid + '\\n' + '__Secure-1PSIDTS=' + psidts;
+      document.getElementById('result').value = '__Secure-1PSID=' + psid + '\\n' + '__Secure-1PSIDTS=' + psidts;
+      document.getElementById('result').value = '__Secure-1PSID=' + psid + '\\n' + '__Secure-1PSIDTS=' + psidts;
+      document.getElementById('result').value = '__Secure-1PSID=' + psid + '\\n' + '__Secure-1PSIDTS=' + psidts;
+      document.getElementById('result').value = '__Secure-1PSID=' + psid + '\n' + '__Secure-1PSIDTS=' + psidts;
+    }
+  </script>
+</body>
+</html>
