@@ -1,5 +1,8 @@
 Changelog
 
+2025.10.30
+Fix SPC Captcha
+
 2025.8.19
 Hỗ trợ nhiều mã khách hàng cùng 1 tài khoản server HCMC. Fix hóa đơn PDF bị sai server HCMC
 Phiên bản cuối cùng hỗ trợ các cpu đời cũ như armv7,armhf,i386 và các cpu trên android box
